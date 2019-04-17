@@ -4,6 +4,7 @@ import TrackList from './TrackList';
 import ScriptHandler from './ScriptHandler';
 import { Container, Row, Col } from 'reactstrap';
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +22,7 @@ class App extends Component {
         <header className="App-header">
           <Container>
             <Row>
-              Watch this space, and your tournament will instantly get more <i>Pizzazzz</i>.
+              Award Soundboard
               <br/>
               <br/>
             </Row>

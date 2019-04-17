@@ -9,7 +9,9 @@ export default class TrackList extends Component {
     return (
       <Container>
           <Table dark>
-            {manifest.map((x) => <Track track={x} />)}
+	        <tbody>
+    	      {manifest.map((x) => <Track track={x} key={x.id}/>)}
+			</tbody>
           </Table>
       </Container>
     );

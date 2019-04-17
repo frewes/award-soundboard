@@ -10,5 +10,35 @@
 		"name": "Never gonna give you up",
 		"location": "./rick.mp3",
 		"duration": 120
+	},
+	{
+		"id": 2,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
+	},
+	{
+		"id": 3,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
+	},
+	{
+		"id": 4,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
+	},
+	{
+		"id": 5,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
+	},
+	{
+		"id": 6,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
 	}
 ]
