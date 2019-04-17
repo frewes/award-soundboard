@@ -17,3 +17,7 @@ code {
 	height: 80vh;
 	overflow: scroll;	
 }
+
+.clicked {
+  background-color: red
+}

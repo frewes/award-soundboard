@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import manifest from './manifest.json';
 import './App.css';
 import PDFViewer from './PDFViewer.js';
 import { Container, Button } from 'reactstrap';
