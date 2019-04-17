@@ -1,0 +1,14 @@
+[
+	{
+		"id": 0,
+		"name": "We are the Champions",
+		"location": "./champions.mp3",
+		"duration": 50
+	},
+	{
+		"id": 1,
+		"name": "Never gonna give you up",
+		"location": "./rick.mp3",
+		"duration": 120
+	}
+]
