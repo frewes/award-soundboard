@@ -21,3 +21,7 @@ code {
 .clicked {
   background-color: red
 }
+
+.unclickable {
+  color: grey;
+}
