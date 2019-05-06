@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import TrackList from './TrackList';
-import ScriptHandler from './ScriptHandler';
+// import ScriptHandler from './ScriptHandler';
 import { Container, Row, Col } from 'reactstrap';
 
 
@@ -17,6 +17,9 @@ class App extends Component {
   }
 
   render() {
+    let doPDF = false;
+    // <ScriptHandler handleUpload={this.handleUpload}/>
+
     return (
       <div className="App">
         <header className="App-header">
@@ -27,12 +30,13 @@ class App extends Component {
               <br/>
             </Row>
             <Row>
-              <Col>
+              <Col sm={doPDF ? 6 : 12}>
                 <TrackList />
               </Col>
-              <Col>
-                  <ScriptHandler handleUpload={this.handleUpload}/>
-              </Col>
+              {(doPDF) ? (
+                <Col sm={6} xs={0}>
+                </Col> 
+              ) : "" }
             </Row> 
           </Container>  
         </header>

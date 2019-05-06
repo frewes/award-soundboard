@@ -52,7 +52,7 @@ export default class ScriptHandler extends Component {
 				<input hidden type="file" id="script-file" name="file" accept=".pdf" onChange={this.onChangeHandler}/>
 					{(this.state.pdfURI) ? 
 						<PDFViewer source={this.state.pdfURI}/> : 
-						<label for="script-file">Upload script!</label>}
+						<label htmlFor="script-file">Upload script!</label>}
 			</Container>
 		);
 	}
