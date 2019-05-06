@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/award-soundboard/precache-manifest.5ab1180a11fd2612b2943580fa737489.js"
+  "/award-soundboard/precache-manifest.ea99db920a91700b64e37689af0c8a95.js"
 );
 
 workbox.clientsClaim();
