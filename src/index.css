@@ -15,7 +15,7 @@ code {
 
 .pdf {
 	height: 80vh;
-	overflow: scroll;	
+	overflow: scroll;
 }
 
 .clicked {
@@ -23,5 +23,42 @@ code {
 }
 
 .unclickable {
-  color: grey;
+  color: #ddd;
+}
+
+.disabled {
+  color: #222;
+}
+
+.header {
+  font-weight: bolder;
+}
+
+.used {
+  background-color: #222;
+  text-decoration: line-through;
+}
+
+.judge {
+  background-color: #aaa;
+}
+
+.design {
+  background-color: #118;
+}
+
+.performance {
+  background-color: #171;
+}
+
+.core {
+  background-color: #ca1;
+}
+
+.project {
+  background-color: #811;
+}
+
+.champ {
+  background-color: #404;
 }

@@ -10,7 +10,9 @@ export default class Track extends Component {
       runtime: this.props.track.runtime,
       selected: false,
       playing: false,
-      volume: 50
+      played: false,
+      disabled: true,
+      volume: 0
     };
     this.cut = this.cut.bind(this);
     this.click = this.click.bind(this);
@@ -19,15 +21,16 @@ export default class Track extends Component {
     this.incVolume = this.incVolume.bind(this);
     this.decVolume = this.decVolume.bind(this);
     this.updateRuntime = this.updateRuntime.bind(this);
+    this.enable = this.enable.bind(this);
     this.changingVolume=false;
   }
 
   click(evt) {
     // Should check if anything else is selected.
-    if (!this.props.selectable) return;
+    if (!this.props.selectable || this.state.disabled) return;
     console.log(this.props.track);
     if (this.changingVolume) return;
-    if (this.state.selected) 
+    if (this.state.selected)
       this.decVolume();
     else
       this.playSound();
@@ -42,45 +45,50 @@ export default class Track extends Component {
 
   incVolume() {
     this.changingVolume = true;
-    let v = this.state.volume+2;
+    let v = this.state.volume+5;
     if (v < 100) setTimeout(this.incVolume,50);
     else this.changingVolume = false;
-    this.setState({volume: v}); 
+    this.setState({volume: v});
   }
 
   decVolume() {
     this.changingVolume = true;
-    let v = this.state.volume-5;
+    let v = this.state.volume-4;
     if (v > 0) setTimeout(this.decVolume,50);
     else {
       this.stopSound();
       this.changingVolume = false;
     }
-    this.setState({volume: v}); 
+    this.setState({volume: v});
   }
 
   stopSound() {
-    this.setState({playing: false,selected: false,volume:0});
+    this.setState({playing: false,selected: false,volume:0, played: true});
     this.props.onSelect();
   }
 
   updateRuntime(evt) {
-    this.setState({runtime: Math.round((evt.duration - evt.position)/1000)})
+    let secsLeft = (evt.duration - evt.position)/1000;
+    if (secsLeft < 2) this.decVolume();
+    this.setState({runtime: Math.round(secsLeft)});
   }
 
+  enable() {
+    this.setState({disabled: false});
+  }
 
   cut() {
     this.stopSound();
   }
 
-
   sound() {
     return (
       <Sound
-        url={this.props.track.path}
+        url={process.env.PUBLIC_URL + this.props.track.path}
         playStatus={this.state.playing ? Sound.status.PLAYING : Sound.status.STOPPED}
         volume={this.state.volume}
         autoLoad={true}
+        onLoad={this.enable}
         onPlaying={this.updateRuntime}
       />
     );
@@ -88,11 +96,16 @@ export default class Track extends Component {
 
   trackDetails() {
     let cn = "";
-    if (this.state.selected)
+    if (this.state.disabled)
+      cn = "disabled"
+    else if (this.state.selected)
       cn = "clicked";
-    else if (!this.props.selectable) 
-      cn = "unclickable";
-
+    else {
+      if (this.state.played)
+        cn += "used ";
+      if (!this.props.selectable)
+        cn += "unclickable";
+    }
     return (
       <tr className={cn} onClick={this.click}>
         <td>{this.props.track.title}</td>

@@ -25,20 +25,15 @@ class App extends Component {
         <header className="App-header">
           <Container>
             <Row>
-              Award Soundboard
-              <br/>
-              <br/>
-            </Row>
-            <Row>
               <Col sm={doPDF ? 6 : 12}>
                 <TrackList />
               </Col>
               {(doPDF) ? (
                 <Col sm={6} xs={0}>
-                </Col> 
+                </Col>
               ) : "" }
-            </Row> 
-          </Container>  
+            </Row>
+          </Container>
         </header>
       </div>
     );

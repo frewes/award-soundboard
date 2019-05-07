@@ -1,9 +1,6 @@
-[ 
+[
 	{
-		"artist": "AC DC",
-		"title": " Thunderstruck",
-		"path": "/clips/AC_DC - Thunderstruck (Cut).mp3",
-		"runtime": 132
+		"header": "Judges awards / General"
 	},
 	{
 		"artist": "Black Eyed Peas",
@@ -19,15 +16,42 @@
 	},
 	{
 		"artist": "Calvin Harris",
-		"title": " My Way",
-		"path": "/clips/Calvin Harris - My Way (Cut).mp3",
-		"runtime": 181
-	},
-	{
-		"artist": "Calvin Harris",
 		"title": " Summer",
 		"path": "/clips/Calvin Harris - Summer (Cut).mp3",
 		"runtime": 106
+	},
+	{
+		"artist": "John Denver",
+		"title": " Thank God I'm a Country Boy",
+		"path": "/clips/John Denver - Thank God I'm a Country Boy (Cut).mp3",
+		"runtime": 109
+	},
+	{
+		"artist": "Macklemore & Ryan Lewis",
+		"title": " Can't Hold Us",
+		"path": "/clips/Macklemore & Ryan Lewis - Can't Hold Us (Cut).mp3",
+		"runtime": 81
+	},
+	{
+		"artist": "Queen",
+		"title": "Dont Stop Me Now",
+		"path": "/clips/Queen - Dont Stop Me Now (Cut).mp3",
+		"runtime": 146
+	},
+	{
+		"artist": "Rick Astley",
+		"title": " Never Gonna Give You Up",
+		"path": "/clips/Rick Astley - Never Gonna Give You Up (cut).mp3",
+		"runtime": 169
+	},
+	{
+		"header": "Robot Design awards"
+	},
+	{
+		"artist": "AC DC",
+		"title": " Thunderstruck",
+		"path": "/clips/AC_DC - Thunderstruck (Cut).mp3",
+		"runtime": 132
 	},
 	{
 		"artist": "Darude",
@@ -48,10 +72,10 @@
 		"runtime": 83
 	},
 	{
-		"artist": "Flo Rida",
-		"title": " Club Can't Handle Me",
-		"path": "/clips/Flo Rida - Club Can't Handle Me (Cut).mp3",
-		"runtime": 189
+		"artist": "I See Monstas",
+		"title": " Evolution",
+		"path": "/clips/I See Monstas - Evolution (Cut).mp3",
+		"runtime": 109
 	},
 	{
 		"artist": "Galantis",
@@ -60,40 +84,19 @@
 		"runtime": 58
 	},
 	{
-		"artist": "Guy Sebastian",
-		"title": " Tonight Again",
-		"path": "/clips/Guy Sebastian - Tonight Again (Cut).mp3",
-		"runtime": 97
+		"artist": "Van Halen",
+		"title": " Jump",
+		"path": "/clips/Van Halen - Jump (Cut).mp3",
+		"runtime": 186
 	},
 	{
-		"artist": "I See Monstas",
-		"title": " Evolution",
-		"path": "/clips/I See Monstas - Evolution (Cut).mp3",
-		"runtime": 109
+		"artist": "Zedd & Aloe Blacc",
+		"title": " Candyman",
+		"path": "/clips/Zedd & Aloe Blacc - Candyman (Cut).mp3",
+		"runtime": 53
 	},
 	{
-		"artist": "Imagine Dragons",
-		"title": " On Top Of The World",
-		"path": "/clips/Imagine Dragons - On Top Of The World (Cut).mp3",
-		"runtime": 109
-	},
-	{
-		"artist": "John Denver",
-		"title": " Thank God I'm a Country Boy",
-		"path": "/clips/John Denver - Thank God I'm a Country Boy (Cut).mp3",
-		"runtime": 109
-	},
-	{
-		"artist": "K'naan",
-		"title": " Wavin Flag",
-		"path": "/clips/K'naan - Wavin Flag (Cut).mp3",
-		"runtime": 160
-	},
-	{
-		"artist": "Katy Perry",
-		"title": " Roar",
-		"path": "/clips/Katy Perry - Roar (Cut).mp3",
-		"runtime": 109
+		"header": "Robot Performance awards"
 	},
 	{
 		"artist": "Led Zeppelin",
@@ -102,10 +105,76 @@
 		"runtime": 87
 	},
 	{
-		"artist": "Macklemore & Ryan Lewis",
-		"title": " Can't Hold Us",
-		"path": "/clips/Macklemore & Ryan Lewis - Can't Hold Us (Cut).mp3",
-		"runtime": 81
+		"artist": "Scotty",
+		"title": " Pirates of the Caribbean, Scotty remix",
+		"path": "/clips/Scotty - Pirates of the Caribbean, Scotty remix (Cut).mp3",
+		"runtime": 150
+	},
+	{
+		"artist": "Flo Rida",
+		"title": " Club Can't Handle Me",
+		"path": "/clips/Flo Rida - Club Can't Handle Me (Cut).mp3",
+		"runtime": 189
+	},
+	{
+		"header": "Core Values awards"
+	},
+	{
+		"artist": "Guy Sebastian",
+		"title": " Tonight Again",
+		"path": "/clips/Guy Sebastian - Tonight Again (Cut).mp3",
+		"runtime": 97
+	},
+	{
+		"artist": "Imagine Dragons",
+		"title": " On Top Of The World",
+		"path": "/clips/Imagine Dragons - On Top Of The World (Cut).mp3",
+		"runtime": 109
+	},
+	{
+		"artist": "Katy Perry",
+		"title": " Roar",
+		"path": "/clips/Katy Perry - Roar (Cut).mp3",
+		"runtime": 109
+	},
+	{
+		"artist": "Pharell Williams",
+		"title": " Happy",
+		"path": "/clips/Pharell Williams - Happy (Cut).mp3",
+		"runtime": 115
+	},
+	{
+		"artist": "Rocky Horror Picture Show",
+		"title": " Time Warp",
+		"path": "/clips/Rocky Horror Picture Show - Time Warp (Cut).mp3",
+		"runtime": 144
+	},
+	{
+		"artist": "Steps",
+		"title": "5, 6, 7, 8",
+		"path": "/clips/Steps - 5, 6, 7, 8 (Cut).mp3",
+		"runtime": 115
+	},
+	{
+		"artist": "Tegan and Sara",
+		"title": " Everything is Awesome",
+		"path": "/clips/Tegan and Sara - Everything is Awesome (Cut).mp3",
+		"runtime": 163
+	},
+	{
+		"artist": "The Rembrandts",
+		"title": " I'll Be There For You",
+		"path": "/clips/The Rembrandts - I'll Be There For You (Cut).mp3",
+		"runtime": 108
+	},
+	{
+		"header": "Project awards"
+	},
+	{
+		"artist": "Calvin Harris",
+		"title": " My Way",
+		"path": "/clips/Calvin Harris - My Way (Cut).mp3",
+		"runtime": 181
 	},
 	{
 		"artist": "Marc Ronson & Bruno Mars",
@@ -126,64 +195,16 @@
 		"runtime": 113
 	},
 	{
-		"artist": "Pharell Williams",
-		"title": " Happy",
-		"path": "/clips/Pharell Williams - Happy (Cut).mp3",
-		"runtime": 115
-	},
-	{
 		"artist": "Psy",
 		"title": " Gangnam Style",
 		"path": "/clips/Psy - Gangnam Style (Cut).mp3",
 		"runtime": 72
 	},
 	{
-		"artist": "Queen",
-		"title": " Dont Stop Me Now",
-		"path": "/clips/Queen - Dont Stop Me Now (Cut).mp3",
-		"runtime": 146
-	},
-	{
-		"artist": "Queen",
-		"title": " We Are The Champions",
-		"path": "/clips/Queen - We Are The Champions (Cut).mp3",
-		"runtime": 76
-	},
-	{
-		"artist": "Rick Astley",
-		"title": " Never Gonna Give You Up",
-		"path": "/clips/Rick Astley - Never Gonna Give You Up (cut).mp3",
-		"runtime": 169
-	},
-	{
-		"artist": "Rocky Horror Picture Show",
-		"title": " Time Warp",
-		"path": "/clips/Rocky Horror Picture Show - Time Warp (Cut).mp3",
-		"runtime": 144
-	},
-	{
-		"artist": "Scotty",
-		"title": " Pirates of the Caribbean, Scotty remix",
-		"path": "/clips/Scotty - Pirates of the Caribbean, Scotty remix (Cut).mp3",
-		"runtime": 150
-	},
-	{
-		"artist": "Steps",
-		"title": " 5, 6, 7, 8",
-		"path": "/clips/Steps - 5, 6, 7, 8 (Cut).mp3",
-		"runtime": 115
-	},
-	{
 		"artist": "Taylor Swift",
 		"title": " 22",
 		"path": "/clips/Taylor Swift - 22 (Cut).mp3",
 		"runtime": 121
-	},
-	{
-		"artist": "Tegan and Sara",
-		"title": " Everything is Awesome",
-		"path": "/clips/Tegan and Sara - Everything is Awesome (Cut).mp3",
-		"runtime": 163
 	},
 	{
 		"artist": "The Beatles",
@@ -198,27 +219,24 @@
 		"runtime": 63
 	},
 	{
-		"artist": "The Rembrandts",
-		"title": " I'll Be There For You",
-		"path": "/clips/The Rembrandts - I'll Be There For You (Cut).mp3",
-		"runtime": 108
+		"header": "Champions Award"
 	},
 	{
-		"artist": "Van Halen",
-		"title": " Jump",
-		"path": "/clips/Van Halen - Jump (Cut).mp3",
-		"runtime": 186
-	},
-	{
-		"artist": "Zedd & Aloe Blacc",
-		"title": " Candyman",
-		"path": "/clips/Zedd & Aloe Blacc - Candyman (Cut).mp3",
-		"runtime": 53
+		"artist": "K'naan",
+		"title": " Wavin Flag",
+		"path": "/clips/K'naan - Wavin Flag (Cut).mp3",
+		"runtime": 160
 	},
 	{
 		"artist": "Zedd",
 		"title": " Beautiful Now",
 		"path": "/clips/Zedd - Beautiful Now (Cut).mp3",
 		"runtime": 96
+	},
+	{
+		"artist": "Queen",
+		"title": " We Are The Champions",
+		"path": "/clips/Queen - We Are The Champions (Cut).mp3",
+		"runtime": 76
 	}
 ]
