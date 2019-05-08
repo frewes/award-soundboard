@@ -1,10 +1,23 @@
 {
-  "name": "award-soundboard",
-  "homepage": "https://westling.io/award-soundboard",
-  "version": "0.1.0",
+  "name": "Award-Soundboard",
+  "homepage": "./",
+  "main": "public/electron.js",
+  "author": {
+    "name": "Fred Westling",
+    "email": "fred@firstaustralia.org"
+  },
+  "description": "A tool to help you make your tournament more atomspheric!",
+  "version": "0.2.0",
   "private": true,
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "electron": "^5.0.0",
+    "electron-builder": "^20.39.0",
+    "wait-on": "^3.2.0"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "electron-is-dev": "^1.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -19,7 +32,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-dev-win": "concurrently \"set BROWSER=none && yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "postinstall": "electron-builder install-app-deps",
+    "preelectron-pack": "yarn build",
+    "electron-pack": "build -wl"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +47,30 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "build": {
+    "appId": "com.fwestling.electron-first",
+    "asar": true,
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "build/icon.icns"
+    },
+    "win": {
+      "target": [
+        "NSIS",
+        "portable"
+      ],
+      "icon": "build/icon.ico"
+    }
+  }
 }
