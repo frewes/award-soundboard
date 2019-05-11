@@ -24,14 +24,14 @@ export default class Track extends Component {
         this.updateRuntime = this.updateRuntime.bind(this);
         this.enable = this.enable.bind(this);
         this.changingVolume = false;
-    }
 
-    componentDidMount() {
-        console.log("MOUNTED");
-        console.log(soundManager);
         soundManager.setup({
             ignoreMobileRestrictions: true
         });
+
+    }
+
+    componentDidMount() {
     }
 
     click(evt) {
