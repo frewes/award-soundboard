@@ -1,15 +1,15 @@
 {
-  "main.css": "/award-soundboard/static/css/main.982ba44f.chunk.css",
-  "main.js": "/award-soundboard/static/js/main.e148cd74.chunk.js",
-  "main.js.map": "/award-soundboard/static/js/main.e148cd74.chunk.js.map",
-  "runtime~main.js": "/award-soundboard/static/js/runtime~main.bf8de04b.js",
-  "runtime~main.js.map": "/award-soundboard/static/js/runtime~main.bf8de04b.js.map",
-  "static/css/2.3215055b.chunk.css": "/award-soundboard/static/css/2.3215055b.chunk.css",
-  "static/js/2.b308cf08.chunk.js": "/award-soundboard/static/js/2.b308cf08.chunk.js",
-  "static/js/2.b308cf08.chunk.js.map": "/award-soundboard/static/js/2.b308cf08.chunk.js.map",
-  "index.html": "/award-soundboard/index.html",
-  "precache-manifest.113ebdf24de6e16dab7729ca11fedc6c.js": "/award-soundboard/precache-manifest.113ebdf24de6e16dab7729ca11fedc6c.js",
-  "service-worker.js": "/award-soundboard/service-worker.js",
-  "static/css/2.3215055b.chunk.css.map": "/award-soundboard/static/css/2.3215055b.chunk.css.map",
-  "static/css/main.982ba44f.chunk.css.map": "/award-soundboard/static/css/main.982ba44f.chunk.css.map"
+  "main.css": "./static/css/main.37c1bfd0.chunk.css",
+  "main.js": "./static/js/main.96b2c8dd.chunk.js",
+  "main.js.map": "./static/js/main.96b2c8dd.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/css/2.3102462a.chunk.css": "./static/css/2.3102462a.chunk.css",
+  "static/js/2.4c6719ba.chunk.js": "./static/js/2.4c6719ba.chunk.js",
+  "static/js/2.4c6719ba.chunk.js.map": "./static/js/2.4c6719ba.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.cb2565784737d0fbeda086fa9fd82f71.js": "./precache-manifest.cb2565784737d0fbeda086fa9fd82f71.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/2.3102462a.chunk.css.map": "./static/css/2.3102462a.chunk.css.map",
+  "static/css/main.37c1bfd0.chunk.css.map": "./static/css/main.37c1bfd0.chunk.css.map"
 }
