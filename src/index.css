@@ -1,64 +1,64 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .pdf {
-	height: 80vh;
-	overflow: scroll;
+    height: 80vh;
+    overflow: scroll;
 }
 
 .clicked {
-  background-color: red
+    background-color: red
 }
 
 .unclickable {
-  color: #ddd;
+    color: #ddd;
 }
 
 .disabled {
-  color: #222;
+    color: #222;
 }
 
 .header {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 .used {
-  background-color: #222;
-  text-decoration: line-through;
+    background-color: #222;
+    text-decoration: line-through;
 }
 
 .judge {
-  background-color: #aaa;
+    background-color: #aaa;
 }
 
 .design {
-  background-color: #118;
+    background-color: #118;
 }
 
 .performance {
-  background-color: #171;
+    background-color: #171;
 }
 
 .core {
-  background-color: #ca1;
+    background-color: #ca1;
 }
 
 .project {
-  background-color: #811;
+    background-color: #811;
 }
 
 .champ {
-  background-color: #404;
+    background-color: #404;
 }
